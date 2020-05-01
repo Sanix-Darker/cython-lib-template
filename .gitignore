@@ -1,4 +1,4 @@
-*.c
+wrapped.c
 *.so
 cython/build
 *__pycache__
