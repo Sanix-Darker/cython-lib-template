@@ -1,0 +1,13 @@
+language: python
+python:
+  - "3.6"
+
+notifications:
+  email: false
+
+install:
+    - pip3 install -q cython
+    - python3 setup.py develop
+
+script:
+  - pytest cython_lib
