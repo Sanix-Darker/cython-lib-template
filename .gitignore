@@ -8,3 +8,4 @@ cython/build
 dev
 *.egg-info
 build
+.pytest_cache

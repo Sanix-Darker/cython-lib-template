@@ -14,8 +14,9 @@ for Python projects with C extension modules, along with basic unit tests
 (together with a working Travis-CI config).
 
 ## Build the lib
-First, install numpy and cython (using pip or from a package manager) if you
-don't already have them.
+
+First, install cython (using pip or from a package manager) if you
+don't already have them. `pip install cython`
 
 Then just run `python setup.py develop` to build the project in-place.
 
